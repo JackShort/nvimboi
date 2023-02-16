@@ -1,0 +1,5 @@
+require("config.set")
+require("config.packer")
+require("config.neogit")
+require("config.telescope")
+require("config.plugins")

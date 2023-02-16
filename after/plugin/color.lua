@@ -4,5 +4,5 @@ if vim.g.vscode == nil then
 
   -- require("catppuccin").setup()
 
-  vim.cmd("colorscheme nord")
+  vim.cmd("colorscheme poimandres")
 end

@@ -7,7 +7,7 @@ local nnoremap = Remap.nnoremap
 local inoremap = Remap.inoremap
 local opts = { noremap=true, silent=true }
 
-local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
 
 local lsp_formatting = function(bufnr)
     vim.lsp.buf.format({
